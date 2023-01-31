@@ -1,0 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Common Styles */
+body {
+    background-color: hsl(212, 45%, 89%);
+    max-width: 1440px;
+    font-family: 'Outfit', sans-serif;
+}
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+/* Main Styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.qr-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+}
+.qr-card > img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.card-text {
+    padding: 0 15px 15px 15px;
+    text-align: center;
+}
